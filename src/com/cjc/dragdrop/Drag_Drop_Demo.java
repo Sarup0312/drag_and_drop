@@ -13,6 +13,7 @@ public class Drag_Drop_Demo
 {
 	public static void main(String[] args) throws InterruptedException 
 	{
+		//1 update grm git to eclp
 		System.setProperty("webdriver.chrome.driver", "E:\\soft\\chrome_new\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://only-testing-blog.blogspot.com/2014/09/drag-and-drop.html");
